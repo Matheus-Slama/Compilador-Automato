@@ -1,0 +1,124 @@
+[
+  {
+    "estado": 0,
+    "itens": [
+      "P_AUG ::= • P",
+      "P ::= • LISTA",
+      "LISTA ::= • COMANDO LISTA_TAIL",
+      "COMANDO ::= • se ID ACAO",
+      "COMANDO ::= • sai ID",
+      "COMANDO ::= • foi ID",
+      "COMANDO ::= • ID"
+    ]
+  },
+  {
+    "estado": 1,
+    "itens": [
+      "P_AUG ::= P •"
+    ]
+  },
+  {
+    "estado": 2,
+    "itens": [
+      "P ::= LISTA •"
+    ]
+  },
+  {
+    "estado": 3,
+    "itens": [
+      "LISTA ::= COMANDO • LISTA_TAIL",
+      "LISTA_TAIL ::= • COMANDO LISTA_TAIL",
+      "LISTA_TAIL ::= • ε",
+      "COMANDO ::= • se ID ACAO",
+      "COMANDO ::= • sai ID",
+      "COMANDO ::= • foi ID",
+      "COMANDO ::= • ID"
+    ]
+  },
+  {
+    "estado": 4,
+    "itens": [
+      "COMANDO ::= se • ID ACAO"
+    ]
+  },
+  {
+    "estado": 5,
+    "itens": [
+      "COMANDO ::= sai • ID"
+    ]
+  },
+  {
+    "estado": 6,
+    "itens": [
+      "COMANDO ::= foi • ID"
+    ]
+  },
+  {
+    "estado": 7,
+    "itens": [
+      "COMANDO ::= ID •"
+    ]
+  },
+  {
+    "estado": 8,
+    "itens": [
+      "LISTA ::= COMANDO LISTA_TAIL •"
+    ]
+  },
+  {
+    "estado": 9,
+    "itens": [
+      "LISTA_TAIL ::= • COMANDO LISTA_TAIL",
+      "LISTA_TAIL ::= COMANDO • LISTA_TAIL",
+      "LISTA_TAIL ::= • ε",
+      "COMANDO ::= • se ID ACAO",
+      "COMANDO ::= • sai ID",
+      "COMANDO ::= • foi ID",
+      "COMANDO ::= • ID"
+    ]
+  },
+  {
+    "estado": 10,
+    "itens": [
+      "COMANDO ::= se ID • ACAO",
+      "ACAO ::= • foi",
+      "ACAO ::= • sai"
+    ]
+  },
+  {
+    "estado": 11,
+    "itens": [
+      "COMANDO ::= sai ID •"
+    ]
+  },
+  {
+    "estado": 12,
+    "itens": [
+      "COMANDO ::= foi ID •"
+    ]
+  },
+  {
+    "estado": 13,
+    "itens": [
+      "LISTA_TAIL ::= COMANDO LISTA_TAIL •"
+    ]
+  },
+  {
+    "estado": 14,
+    "itens": [
+      "COMANDO ::= se ID ACAO •"
+    ]
+  },
+  {
+    "estado": 15,
+    "itens": [
+      "ACAO ::= foi •"
+    ]
+  },
+  {
+    "estado": 16,
+    "itens": [
+      "ACAO ::= sai •"
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "aceito": true,
+  "caracteristicaSemantica": "Os identificadores da entrada devem ser unicos.",
+  "comandosReconhecidos": [
+    {
+      "indice": 1,
+      "regra": "COMANDO ::= se ID ACAO",
+      "tipo": "condicional",
+      "identificador": "a",
+      "acao": "foi"
+    }
+  ],
+  "erros": []
+}

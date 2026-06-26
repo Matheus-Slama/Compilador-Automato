@@ -1,0 +1,127 @@
+[
+  {
+    "origem": 0,
+    "simbolo": "P",
+    "destino": 1
+  },
+  {
+    "origem": 0,
+    "simbolo": "LISTA",
+    "destino": 2
+  },
+  {
+    "origem": 0,
+    "simbolo": "COMANDO",
+    "destino": 3
+  },
+  {
+    "origem": 0,
+    "simbolo": "se",
+    "destino": 4
+  },
+  {
+    "origem": 0,
+    "simbolo": "sai",
+    "destino": 5
+  },
+  {
+    "origem": 0,
+    "simbolo": "foi",
+    "destino": 6
+  },
+  {
+    "origem": 0,
+    "simbolo": "ID",
+    "destino": 7
+  },
+  {
+    "origem": 3,
+    "simbolo": "LISTA_TAIL",
+    "destino": 8
+  },
+  {
+    "origem": 3,
+    "simbolo": "COMANDO",
+    "destino": 9
+  },
+  {
+    "origem": 3,
+    "simbolo": "se",
+    "destino": 4
+  },
+  {
+    "origem": 3,
+    "simbolo": "sai",
+    "destino": 5
+  },
+  {
+    "origem": 3,
+    "simbolo": "foi",
+    "destino": 6
+  },
+  {
+    "origem": 3,
+    "simbolo": "ID",
+    "destino": 7
+  },
+  {
+    "origem": 4,
+    "simbolo": "ID",
+    "destino": 10
+  },
+  {
+    "origem": 5,
+    "simbolo": "ID",
+    "destino": 11
+  },
+  {
+    "origem": 6,
+    "simbolo": "ID",
+    "destino": 12
+  },
+  {
+    "origem": 9,
+    "simbolo": "COMANDO",
+    "destino": 9
+  },
+  {
+    "origem": 9,
+    "simbolo": "LISTA_TAIL",
+    "destino": 13
+  },
+  {
+    "origem": 9,
+    "simbolo": "se",
+    "destino": 4
+  },
+  {
+    "origem": 9,
+    "simbolo": "sai",
+    "destino": 5
+  },
+  {
+    "origem": 9,
+    "simbolo": "foi",
+    "destino": 6
+  },
+  {
+    "origem": 9,
+    "simbolo": "ID",
+    "destino": 7
+  },
+  {
+    "origem": 10,
+    "simbolo": "ACAO",
+    "destino": 14
+  },
+  {
+    "origem": 10,
+    "simbolo": "foi",
+    "destino": 15
+  },
+  {
+    "origem": 10,
+    "simbolo": "sai",
+    "destino": 16
+  }
+]

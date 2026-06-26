@@ -1,0 +1,6 @@
+# Gramatica usada pelo parser depois da fatoracao.
+P ::= LISTA
+LISTA ::= COMANDO LISTA_TAIL
+LISTA_TAIL ::= COMANDO LISTA_TAIL | ε
+COMANDO ::= se ID ACAO | sai ID | foi ID | ID
+ACAO ::= foi | sai

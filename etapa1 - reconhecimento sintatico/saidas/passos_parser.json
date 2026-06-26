@@ -1,0 +1,56 @@
+[
+  {
+    "passo": 1,
+    "pilha": "0",
+    "entrada": "se ID foi $",
+    "acao": "s4"
+  },
+  {
+    "passo": 2,
+    "pilha": "0 se 4",
+    "entrada": "ID foi $",
+    "acao": "s10"
+  },
+  {
+    "passo": 3,
+    "pilha": "0 se 4 ID 10",
+    "entrada": "foi $",
+    "acao": "s15"
+  },
+  {
+    "passo": 4,
+    "pilha": "0 se 4 ID 10 foi 15",
+    "entrada": "$",
+    "acao": "r9"
+  },
+  {
+    "passo": 5,
+    "pilha": "0 se 4 ID 10 ACAO 14",
+    "entrada": "$",
+    "acao": "r5"
+  },
+  {
+    "passo": 6,
+    "pilha": "0 COMANDO 3",
+    "entrada": "$",
+    "acao": "r4"
+  },
+  {
+    "passo": 7,
+    "pilha": "0 COMANDO 3 LISTA_TAIL 8",
+    "entrada": "$",
+    "acao": "r2"
+  },
+  {
+    "passo": 8,
+    "pilha": "0 LISTA 2",
+    "entrada": "$",
+    "acao": "r1"
+  },
+  {
+    "passo": 9,
+    "pilha": "0 P 1",
+    "entrada": "$",
+    "acao": "acc"
+  }
+]

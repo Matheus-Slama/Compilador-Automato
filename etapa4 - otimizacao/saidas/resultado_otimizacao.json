@@ -1,0 +1,14 @@
+{
+  "estrategia": "Remocao de NOP e de atribuicoes redundantes do tipo x = x.",
+  "linhasAntes": 2,
+  "linhasDepois": 1,
+  "linhasRemovidas": 1,
+  "removidas": [
+    {
+      "comando": 1,
+      "regra": "COMANDO ::= se ID ACAO",
+      "codigo": "NOP",
+      "motivo": "Instrucao NOP removida."
+    }
+  ]
+}

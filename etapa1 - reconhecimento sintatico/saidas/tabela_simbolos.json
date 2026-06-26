@@ -1,0 +1,53 @@
+[
+  {
+    "linha": 1,
+    "identificador": "B",
+    "rotulo": "se",
+    "terminalParser": "se",
+    "lexema": "se",
+    "indiceFita": 0,
+    "consumidoNoSintatico": true,
+    "estadoShift": 4,
+    "reducoesRelacionadas": [
+      9,
+      5,
+      4,
+      2,
+      1
+    ]
+  },
+  {
+    "linha": 1,
+    "identificador": "I",
+    "rotulo": "ID",
+    "terminalParser": "ID",
+    "lexema": "a",
+    "indiceFita": 1,
+    "consumidoNoSintatico": true,
+    "estadoShift": 10,
+    "reducoesRelacionadas": [
+      9,
+      5,
+      4,
+      2,
+      1
+    ]
+  },
+  {
+    "linha": 1,
+    "identificador": "[HI]",
+    "rotulo": "foi",
+    "terminalParser": "foi",
+    "lexema": "foi",
+    "indiceFita": 2,
+    "consumidoNoSintatico": true,
+    "estadoShift": 15,
+    "reducoesRelacionadas": [
+      9,
+      5,
+      4,
+      2,
+      1
+    ]
+  }
+]

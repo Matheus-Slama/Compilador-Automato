@@ -1,0 +1,4 @@
+# Gramatica original antes da fatoracao.
+P ::= LISTA
+LISTA ::= COMANDO LISTA | COMANDO
+COMANDO ::= se ID foi | se ID sai | sai ID | foi ID | ID

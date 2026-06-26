@@ -1,0 +1,75 @@
+{
+  "first": {
+    "se": [
+      "se"
+    ],
+    "ID": [
+      "ID"
+    ],
+    "sai": [
+      "sai"
+    ],
+    "foi": [
+      "foi"
+    ],
+    "ε": [
+      "ε"
+    ],
+    "P": [
+      "se",
+      "sai",
+      "foi",
+      "ID"
+    ],
+    "LISTA": [
+      "se",
+      "sai",
+      "foi",
+      "ID"
+    ],
+    "LISTA_TAIL": [
+      "ε",
+      "se",
+      "sai",
+      "foi",
+      "ID"
+    ],
+    "COMANDO": [
+      "se",
+      "sai",
+      "foi",
+      "ID"
+    ],
+    "ACAO": [
+      "foi",
+      "sai"
+    ],
+    "P_AUG": []
+  },
+  "follow": {
+    "P": [
+      "$"
+    ],
+    "LISTA": [
+      "$"
+    ],
+    "LISTA_TAIL": [
+      "$"
+    ],
+    "COMANDO": [
+      "se",
+      "sai",
+      "foi",
+      "ID",
+      "$"
+    ],
+    "ACAO": [
+      "se",
+      "sai",
+      "foi",
+      "ID",
+      "$"
+    ],
+    "P_AUG": []
+  }
+}

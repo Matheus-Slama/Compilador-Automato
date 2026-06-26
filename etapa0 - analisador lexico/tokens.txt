@@ -1,0 +1,5 @@
+se
+sai
+foi
+S::=aA|dA|fA|iA|nA|oA|tA|uA|vA
+A::=aA|dA|fA|iA|nA|oA|tA|uA|vA|ε

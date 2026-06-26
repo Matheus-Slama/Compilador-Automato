@@ -1,0 +1,71 @@
+[
+  {
+    "linha": 1,
+    "identificador": "B",
+    "rotulo": "se",
+    "terminalParser": "se",
+    "lexema": "se",
+    "indiceFita": 0,
+    "consumidoNoSintatico": true,
+    "estadoShift": 4,
+    "reducoesRelacionadas": [
+      9,
+      5,
+      4,
+      2,
+      1
+    ],
+    "categoriaSemantica": "palavra_reservada",
+    "papelSemantico": "inicio_condicional",
+    "comandoSemantico": 1,
+    "simboloSemantico": null,
+    "semanticamenteValido": true,
+    "observacoesSemanticas": []
+  },
+  {
+    "linha": 1,
+    "identificador": "I",
+    "rotulo": "ID",
+    "terminalParser": "ID",
+    "lexema": "a",
+    "indiceFita": 1,
+    "consumidoNoSintatico": true,
+    "estadoShift": 10,
+    "reducoesRelacionadas": [
+      9,
+      5,
+      4,
+      2,
+      1
+    ],
+    "categoriaSemantica": "identificador",
+    "papelSemantico": "condicao",
+    "comandoSemantico": 1,
+    "simboloSemantico": "id_a",
+    "semanticamenteValido": true,
+    "observacoesSemanticas": []
+  },
+  {
+    "linha": 1,
+    "identificador": "[HI]",
+    "rotulo": "foi",
+    "terminalParser": "foi",
+    "lexema": "foi",
+    "indiceFita": 2,
+    "consumidoNoSintatico": true,
+    "estadoShift": 15,
+    "reducoesRelacionadas": [
+      9,
+      5,
+      4,
+      2,
+      1
+    ],
+    "categoriaSemantica": "palavra_reservada",
+    "papelSemantico": "acao_condicional",
+    "comandoSemantico": 1,
+    "simboloSemantico": null,
+    "semanticamenteValido": true,
+    "observacoesSemanticas": []
+  }
+]

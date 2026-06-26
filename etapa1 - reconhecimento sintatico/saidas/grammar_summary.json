@@ -1,0 +1,81 @@
+{
+  "simboloInicial": "P",
+  "simboloAumentado": "P_AUG",
+  "terminais": [
+    "se",
+    "ID",
+    "sai",
+    "foi"
+  ],
+  "naoTerminais": [
+    "P",
+    "LISTA",
+    "LISTA_TAIL",
+    "COMANDO",
+    "ACAO",
+    "P_AUG"
+  ],
+  "producoes": [
+    {
+      "indice": 0,
+      "texto": "P_AUG ::= P"
+    },
+    {
+      "indice": 1,
+      "texto": "P ::= LISTA"
+    },
+    {
+      "indice": 2,
+      "texto": "LISTA ::= COMANDO LISTA_TAIL"
+    },
+    {
+      "indice": 3,
+      "texto": "LISTA_TAIL ::= COMANDO LISTA_TAIL"
+    },
+    {
+      "indice": 4,
+      "texto": "LISTA_TAIL ::= ε"
+    },
+    {
+      "indice": 5,
+      "texto": "COMANDO ::= se ID ACAO"
+    },
+    {
+      "indice": 6,
+      "texto": "COMANDO ::= sai ID"
+    },
+    {
+      "indice": 7,
+      "texto": "COMANDO ::= foi ID"
+    },
+    {
+      "indice": 8,
+      "texto": "COMANDO ::= ID"
+    },
+    {
+      "indice": 9,
+      "texto": "ACAO ::= foi"
+    },
+    {
+      "indice": 10,
+      "texto": "ACAO ::= sai"
+    }
+  ],
+  "inuteis": {
+    "alcancaveis": [
+      "P",
+      "LISTA",
+      "COMANDO",
+      "LISTA_TAIL",
+      "ACAO"
+    ],
+    "geradores": [
+      "LISTA_TAIL",
+      "COMANDO",
+      "ACAO",
+      "LISTA",
+      "P"
+    ],
+    "inuteis": []
+  }
+}

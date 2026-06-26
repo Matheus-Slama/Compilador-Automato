@@ -1,0 +1,7 @@
+[
+  {
+    "comando": 1,
+    "regra": "COMANDO ::= se ID ACAO",
+    "codigo": "IF id_a THEN foi"
+  }
+]
